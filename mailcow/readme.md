@@ -32,3 +32,9 @@ cd mailcow-dockerized
 ```bash
 nano mailcow.conf
 ```
+
+## 4. Run Mailcow
+```bash
+docker compose pull
+docker compose up -d
+```
