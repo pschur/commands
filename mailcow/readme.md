@@ -17,7 +17,6 @@ systemctl enable --now docker
 ### 2.2 Mailcow
 
 ```bash
-su
 umask # <- Verify it is 0022
 cd /opt
 git clone https://github.com/mailcow/mailcow-dockerized
