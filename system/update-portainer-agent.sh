@@ -1,3 +1,5 @@
+curl -fsSL https://raw.githubusercontent.com/pschur/commands/main/system/update.sh | bash
+
 echo "Updating portainer_agent"
 
 docker stop portainer_agent
